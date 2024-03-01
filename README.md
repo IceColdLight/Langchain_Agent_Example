@@ -15,12 +15,12 @@ conda env create -f environment.yml
 conda activate langchain_test
 ```
 
-## API or GGUF oR GPTQ?
+## API or GGUF or GPTQ?
 
 This project uses the Mistral API, but I've written you a small guide that shows you how to use LLMs locally based on GGUF (even with GPU) and I've left some code in the files as reference. As you have a 4090 you might even be able to use GPTQ formats. However, be prepared for lots of headaches, as it's quite tricky getting this setup. Good luck!
 
 ## Langchain
-Now we have everything setup to start. Install langchain:
+Install langchain:
 
 ```
 conda install langchain -c conda-forge
